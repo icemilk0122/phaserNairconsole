@@ -7,12 +7,15 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
+		<style media="screen">
+			.reveal section img { background:none; border:none; box-shadow:none; }
+		</style>
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
@@ -24,8 +27,27 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section  data-markdown>
+					## Phaser + Airconsole
+					## = serverless多人遊戲
+				</section>
+				<section>
+					<p style="text-align: left;">It’s why a writer writes. Because they can. It’s the most effective way to express themselves. And a video game is the most effective way I can express myself.</p>
+					<br>
+					<p style="text-align: right;">- Indie Game: The Movie</p>
+				</section>
+				<section style="display:-webkit-flex;display:flex;-webkit-align-items: center;align-items: center;-webkit-justify-content: center;justify-content: center;">
+					<p style="float:left"><img width="500" border="0" data-src="img/logo.png"></p>
+					<p style="margin-top:100px;"><h2>Phaser</h2><h4>A fast, fun and free open source HTML5 game framework</h4></p>
+				</section>
+				<section data-markdown>
+					<section>
+						# 快速上手
+					</section>
+					<section>
+						
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -37,6 +59,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				width: "100%",
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
